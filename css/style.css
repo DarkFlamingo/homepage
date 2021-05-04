@@ -1,3 +1,36 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  transition: background 2s ease;
+}
+
+.bg-color-f {
+  background-color: black;
+}
+
+.bg-color-f2 {
+  background-color: rgba(46, 46, 46, 0.527)
+}
+
+.bg-color-f3 {
+  background-color: rgba(34, 34, 34, 0.158)
+}
+
+#page-wrapper-non-particles {
+  position: relative;
+  z-index: 5;
+}
+
 .progress {
   background-color: #ccc;
   width: 100%;
