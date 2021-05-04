@@ -4,21 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer></script>
-  <script src="/js/script.js"></script>
+  <script src="js/script.js"></script>
   <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Résumé</title>
 </head>
 
 <body>
-  <main>
+  <div id="particles-js" class="bg-color-f">
+  </div>
+  <div id="page-wrapper-non-particles">
     <article>
       <div class="page" style="border-color: midnightblue;">
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
               <div class="avatar-wrapper">
-                <object class="avatar" data="images/avatar.png" role="img" aria-label="Avatar"></object>
+                <object class="avatar" data="/images/avatar.png" role="img" aria-label="Avatar"></object>
               </div>
             </div>
             <div class="thirteen wide column">
@@ -312,7 +314,7 @@
         </div>
       </div>
     </article>
-  </main>
+  </div>
 </body>
 
 </html>
