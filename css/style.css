@@ -19,11 +19,11 @@ html {
 }
 
 .bg-color-f2 {
-  background-color: rgba(46, 46, 46, 0.527)
+  background-color: rgba(46, 46, 46, 0.527);
 }
 
 .bg-color-f3 {
-  background-color: rgba(34, 34, 34, 0.158)
+  background-color: rgba(34, 34, 34, 0.158);
 }
 
 #page-wrapper-non-particles {
@@ -38,7 +38,9 @@ html {
   border-radius: 15px;
 }
 
-.progress-bar { float: left; }
+.progress-bar {
+  float: left;
+}
 
 .progress-bar.red {
   background-color: rgb(255, 60, 0);
